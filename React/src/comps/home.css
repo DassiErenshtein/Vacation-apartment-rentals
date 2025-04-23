@@ -1,0 +1,156 @@
+#bodyHome{
+    height: 100vh;
+    background-image: url('../pics/r3.png');
+    background-size: cover;
+    margin-top:5%
+}
+/* .buttonCity{
+    width:15%;
+    height: 10vh;
+    margin:0.8%;
+    border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: x-large;
+  cursor: pointer;
+}
+.about{
+    width:100%;
+    margin-top:15vh;
+     font-size: xx-large;
+    margin-bottom: 3%;
+    text-align: center;
+}  */
+/* .about ul{
+    text-align: right;
+} */
+/* .about div{ */
+    /* text-align: center; */
+    /* font-size: xx-large;
+    margin-bottom: 1%;
+}
+.about img{
+    width: 100%;
+}
+.about1{ */
+    /* color: black; */
+    /* padding-left: 70%;
+    background-image: url('../pics/n9.jpg');
+    background-size: cover;
+    /* height: 50vh; */
+    /* font-size: x-large;
+}
+.about2{
+    padding-right: 50%;
+    background-image: url('../pic/נמל התעופה.png');
+    background-size: cover; */
+    /* height: 50vh; */
+    /* font-size: x-large;
+}
+.about1 p,.about2 p,.about3 p{
+    font-size: 4vw;
+}
+.about3{
+    padding: 7%; */
+    /* background-image: url('../pic/מהמם2.jpg'); */
+    /* background-size: cover;
+    font-size: x-large; */
+    /* color: black; */
+/* } */
+.imghome{
+    width: 100%;
+    /* margin: 0; */
+} 
+/* כללי */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    direction: rtl;
+}
+
+header {
+    background: url('../pics/r3.png') no-repeat center cover;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero {
+    margin-top: 15vh;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #ff9800;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cities-grid,
+.categories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.city-btn,
+.category-btn {
+    background: rgb(37, 17, 147);;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.city-btn:hover,
+.category-btn:hover {
+    /* background: #388e3c; */
+    background: rgb(37, 17, 147);;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}

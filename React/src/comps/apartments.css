@@ -1,0 +1,152 @@
+  /* BUTTON CONTAINER */
+  .button-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    min-width: 40px;
+    height: 20px;
+    padding: 1px;
+    padding-bottom: 2px;
+    background: #09f;
+    border-radius: 8px;
+    filter: drop-shadow(0px 0px 3px #000);
+    -webkit-filter: drop-shadow(0px 0px 3px #000);
+    overflow: hidden;
+    cursor:pointer;
+    margin-bottom: -50px;
+
+  }
+  .button-container:hover, 
+  .button-container:focus {
+    background: #09f;
+    filter: drop-shadow(0px 0px 3px #09f);
+    -webkit-filter: drop-shadow(0px 0px 3px #09f);
+  }
+  /* -- button -- */
+  .button-container .button {
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background: #fff;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: x-small;
+  }
+  .button-container:hover .button:hover  {
+    background: #000;
+    color: #fff;
+  }
+  .button-container:hover .button:active  {
+    background: #000;
+    color: #fff;
+    background: #09f;
+    filter: drop-shadow(0px 0px 3px #09f);
+    -webkit-filter: drop-shadow(0px 0px 3px #09f);
+  }
+  /* -- button ok -- */
+  .button-container .button.ok {
+    background: #131313;
+    color: #fff;
+  }
+  .button-container:hover .button.ok:hover {
+    background: #131313;
+    color: #09f;
+    text-shadow: 0px 0px 10px #09f;
+    -webkit-text-shadow: 0px 0px 10px #09f;
+  }
+  .button-container:hover .button.ok:active  {
+    color: #fff;
+    background: #09f;
+    filter: drop-shadow(0px 0px 3px #000);
+    -webkit-filter: drop-shadow(0px 0px 3px #000);
+  }
+  /* input in filters */
+  .date-field{
+    width:20%;
+    font-size: small;
+  }
+  /* INPUT CONTAINER  */
+  .input-container {
+    display:flex;
+    flex-direction: column;
+    /* width: auto; */
+    /* height: auto; */
+    /* min-width: 30%; */
+    height: 60px;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 300px;
+    background: #fff;
+    border-radius: 8px;
+    filter: drop-shadow(0px 0px 3px #000);
+    -webkit-filter: drop-shadow(0px 0px 3px #000);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .input-container:hover, 
+  .input-container:focus,
+  .input-container:active {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+  }
+  .inputDivS{
+    display:flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+  }
+  .input-container label {
+    position: relative;
+    width: 100%;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    line-height: 20px;
+    color: #09f;
+    margin-left: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .input-container input {
+    position: relative;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    font-family: "Lekton", Arial, sans-serif;
+  font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-left: 0px;
+    border: none;
+  }
+  /* description of apartment (int the bottom) */
+  #descApart{
+        margin-bottom: -3vh;
+  }
+  .pach{
+    width: 10%;
+    margin-top: -10%;
+    height:7vh;
+
+    /* background-color: #e8e7e7; */
+}
+#buttonMine{
+  margin-top:48vh;
+  width:100px;
+  height: 10vh;
+}
+#buttonMine .button.ok{
+  height: 9.9vh;
+}

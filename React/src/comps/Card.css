@@ -1,0 +1,46 @@
+#bigCard {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+   grid-template-areas: "s2 s1";
+}
+
+#bigImgCard {
+  margin-top: 10%;
+  width: 70%;
+  margin-right: 20%;
+  grid-area: s1;
+}
+
+#bigCard .divDitails{
+  margin-top: 30%;
+  margin-right: 10%;
+  grid-area: s2;
+
+}
+#details{
+  width:100%;
+  height: auto;
+  padding:5%;
+  background-color: rgba(255, 255, 255, 0.573);
+  color: black;
+  border-radius: 10px;
+  margin-top:5%;
+}
+#bigCard button{
+  margin-top:2%;
+  width:100%;
+  border-radius: 10px;
+}
+.details{
+  display: flex;
+  justify-content: space-between;
+}
+.address{
+  width:31.5%;
+}
+#adressP{
+  direction: ltr;
+}
