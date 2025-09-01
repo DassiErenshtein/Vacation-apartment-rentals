@@ -1,4 +1,3 @@
-
 # Vacation Apartment Rentals
 
 A full-stack web application for managing and renting vacation apartments across Israel.  
