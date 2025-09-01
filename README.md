@@ -3,8 +3,6 @@
 A full-stack web application for managing and renting vacation apartments across Israel.  
 The platform allows users to browse available apartments with advanced filtering, and property owners to manage their listings easily.  
 
----
-
 ## 🚀 Features
 - Browse and rent vacation apartments across Israel.
 - Filters by:
@@ -16,8 +14,6 @@ The platform allows users to browse available apartments with advanced filtering
 - Intuitive user interface.
 - Built with a **3-layer architecture**: Controllers, Models, Routers.
 
----
-
 ## 🛠️ Tech Stack
 - **Frontend:** React
 - **Backend:** Node.js, Express.js
@@ -28,8 +24,6 @@ The platform allows users to browse available apartments with advanced filtering
   - bcrypt
   - jsonwebtoken
   - mongoose
-
----
 
 ## 🔧 Installation & Setup
 
@@ -54,10 +48,6 @@ npm start
 The backend will run on your configured server (default: http://localhost:5000)  
 The frontend will run on http://localhost:3000.
 
----
-
----
-
 ## 📸 Screenshots
 
 ### 🏠 Login Or Register
@@ -71,10 +61,6 @@ The frontend will run on http://localhost:3000.
 
 ### 📝 New Apartment
 ![New Apartment](./React/src/pics/show6.jpg)
-
----
-
----
 
 ## 📌 Project Status
 ✅ Completed and ready to use.
