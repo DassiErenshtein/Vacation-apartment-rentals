@@ -57,13 +57,7 @@ The frontend will run on http://localhost:3000.
 ---
 
 ## 🖼️ Adding Images
-To add screenshots or images:
-1. Create a folder called `assets` in your project root or inside `React/src`.
-2. Place your images there.
-3. Use Markdown syntax in this README:
-```markdown
-![Alt Text](./assets/screenshot.png)
-```
+![home page](./React/src/pics/show1.png)
 
 ---
 
