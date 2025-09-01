@@ -32,26 +32,6 @@ The platform allows users to browse available apartments with advanced filtering
 
 ---
 
-## 📂 Project Structure
-```
-Vacation-apartment-rentals/
-├── Node/
-│   └── API/
-│       ├── controllers/
-│       ├── models/
-│       └── routers/
-└── React/
-    └── src/
-        ├── cities/
-        ├── comps/
-        ├── pics/
-        ├── redux/
-        ├── App.js
-        └── ...
-```
-
----
-
 ## 🔧 Installation & Setup
 
 ### Prerequisites
@@ -60,7 +40,7 @@ Vacation-apartment-rentals/
 
 ### Backend Setup
 ```bash
-cd Node/API
+cd Node
 npm install
 npm start
 ```
@@ -90,9 +70,3 @@ To add screenshots or images:
 
 ## 📌 Project Status
 ✅ Completed and ready to use.
-
----
-
-## 📜 License
-This project is currently not licensed.  
-If you want to make it open-source, you can choose a license from https://choosealicense.com/.
