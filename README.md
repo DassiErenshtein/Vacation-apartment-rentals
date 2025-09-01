@@ -60,14 +60,17 @@ The frontend will run on http://localhost:3000.
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
-![Home Page](./React/src/pics/show1.jpg)
+### 🏠 Login Or Register
+![Login Or Register](./React/src/pics/show3.jpg)
 
 ### 🔍 Search Results
-![Search Page](./React/src/pics/search.png)
+![Search Results](./React/src/pics/show4.jpg)
 
 ### 📝 Apartment Details
-![Details Page](./React/src/pics/details.png)
+![Apartment Details](./React/src/pics/show1.jpg)
+
+### 📝 New Apartment
+![New Apartment](./React/src/pics/show6.jpg)
 
 ---
 
